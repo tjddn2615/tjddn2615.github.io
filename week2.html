@@ -2,15 +2,37 @@
 <html>
   <body>
     <div style="border : 1px solid black;">
-      <h3> 세미나 정보 </h3>
+      <h3> &nbsp;세미나 정보 </h3>
       <p> 
-           1. 주제 : 차세대 웹 표준 기술 HTML<br>
-           2. 일정 : 5월 12일 14:00 ~17:00<br>
-           3. 장소 : 공학관 2층 세미나실<br>
-           4. 인원 : 선착순 100명<br>
-           5. 비용 : 본교 학생 무료 (외부 참가자 5,000원)<br>
-           6. 참가신청 : 아래 양식에 빠짐없이 기입하여 접수해 주세요
+           &nbsp;1. 주제 : 차세대 웹 표준 기술 HTML<br>
+           &nbsp;2. 일정 : 5월 12일 14:00 ~17:00<br>
+           &nbsp;3. 장소 : 공학관 2층 세미나실<br>
+           &nbsp;4. 인원 : 선착순 100명<br>
+           &nbsp;5. 비용 : 본교 학생 무료 (외부 참가자 5,000원)<br>
+           &nbsp;6. 참가신청 : 아래 양식에 빠짐없이 기입하여 접수해 주세요
       </p>
+    </div>
+    <h3>개인정보</h3>
+    <form>
+      이름     <input type="text" name="user"> <br />
+      비밀번호 <input type="password" name="pass">
+    </form>
+    <h3>참가 정보</h3>
+    <div style = "border : 1px solid black;" title="참가 유형 선택">
+      <form>
+        <input type="radio" name="radio1" value="free">무료(교내참가자)
+        <input type="radio" name="radio1" value="paid">유료(교외참가자)
+      </form>
+    </div>
+    <div style = "border : 1px solid black;" title="관심 분야 선택">
+      <form>
+        <input type="radio" name="dis" value="html">HTML5 시멘틱
+        <input type="radio" name="dis" value="css">CSS3
+        <input type="radio" name="dis" value="webstorage">Web Storage
+        <input type="radio" name="dis" value="websocket">Web Socket
+        <input type="radio" name="dis" value="canvas">Canvas
+        <input type="radio" name="dis" value="geolocation">Geolocation
+      </form>
     </div>
   </body>
 </html>
