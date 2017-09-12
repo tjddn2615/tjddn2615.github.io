@@ -17,19 +17,21 @@
         이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="user"> <br />
         비밀번호 <input type="password" name="pass">
       <h3>참가 정보</h3>
-      <div style = "border : 1px solid black;" title="참가 유형 선택">
+      <fieldset>
+        <legend>참가 유형 선택</legend>
         <input type="radio" name="radio1" value="free">무료(교내참가자)
         <input type="radio" name="radio1" value="paid">유료(교외참가자)
-      </div>
+      </fieldset>
       <br>
-      <div style = "border : 1px solid black;" title="관심 분야 선택">
-        <input type="radio" name="dis" value="html">HTML5 시멘틱
-        <input type="radio" name="dis" value="css">CSS3
-        <input type="radio" name="dis" value="webstorage">Web Storage
-        <input type="radio" name="dis" value="websocket">Web Socket
-        <input type="radio" name="dis" value="canvas">Canvas
-        <input type="radio" name="dis" value="geolocation">Geolocation
-      </div>
+      <fieldset>
+        <legend>관심 분야 선택</legend>
+          <input type="radio" name="dis" value="html">HTML5 시멘틱
+          <input type="radio" name="dis" value="css">CSS3
+          <input type="radio" name="dis" value="webstorage">Web Storage
+          <input type="radio" name="dis" value="websocket">Web Socket
+          <input type="radio" name="dis" value="canvas">Canvas
+          <input type="radio" name="dis" value="geolocation">Geolocation
+      </fieldset>
       <h3>선택 사항</h3>
       직업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <select name="job">
