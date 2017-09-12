@@ -14,7 +14,7 @@
     </div>
     <h3>개인정보</h3>
     <form>
-      이름     <input type="text" name="user"> <br />
+      이름&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="user"> <br />
       비밀번호 <input type="password" name="pass">
     </form>
     <h3>참가 정보</h3>
@@ -34,5 +34,19 @@
         <input type="radio" name="dis" value="geolocation">Geolocation
       </form>
     </div>
+    <h3>선택 사항</h3>
+    <form>
+      <select name="job">
+        <option value="near">가까운 분야 선택</option>
+        <option value="stu">학생</option>
+        <option value="webdev">웹개발</option>
+        <option value="webdes">웹디자인</option>
+        <option value="edu">교육관련</option>
+        <option value="etc">기타</option>
+      </select>
+    남길 말씀
+      <textarea name="feedback" rows="5"  cols="50">
+      </textarea>
+    </form>
   </body>
 </html>
