@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly3</title>
+    <style>
+      #list{
+        font-family"Trebuchet MS", sans-serif;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <table id="list">
+      <tr>
+        <th>City</th>
+        <th>Date</th>
+        <th>Temperature</th>
+        <th>Altitude</th>
+        <th>Population</th>
+        <th>Diner Rating</th>
+      </tr>
+      <tr>
+        <th>Walla Walla, WA</th>
+        <th>June 15th</th>
+        <th>75</th>
+        <th>1,204 ft</th>
+        <th>29686</th>
+        <th>4/5</th>
+      </tr>
+      <tr>
+        <th>Magic City, ID</th>
+        <th>June 25th</th>
+        <th>74</th>
+        <th>5,312 ft</th>
+        <th>50</th>
+        <th>3/5</th>
+      </tr>
+      <tr>
+        <th>Walla Walla, WA</th>
+        <th>June 15th</th>
+        <th>75</th>
+        <th>1,204 ft</th>
+        <th>29686</th>
+        <th>4/5</th>
+      </tr>
+      <tr>
+        <th>Magic City, ID</th>
+        <th>June 25th</th>
+        <th>74</th>
+        <th>5,312 ft</th>
+        <th>50</th>
+        <th>3/5</th>
+      </tr>
+      <tr>
+        <th>Walla Walla, WA</th>
+        <th>June 15th</th>
+        <th>75</th>
+        <th>1,204 ft</th>
+        <th>29686</th>
+        <th>4/5</th>
+      </tr>
+      <tr>
+        <th>Magic City, ID</th>
+        <th>June 25th</th>
+        <th>74</th>
+        <th>5,312 ft</th>
+        <th>50</th>
+        <th>3/5</th>
+      </tr>
+      <tr>
+        <th>Walla Walla, WA</th>
+        <th>June 15th</th>
+        <th>75</th>
+        <th>1,204 ft</th>
+        <th>29686</th>
+        <th>4/5</th>
+      </tr>
+      <tr>
+        <th>Magic City, ID</th>
+        <th>June 25th</th>
+        <th>74</th>
+        <th>5,312 ft</th>
+        <th>50</th>
+        <th>3/5</th>
+      </tr>
+    </table>
+      
+  </body>
+</html>
