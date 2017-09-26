@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week4</title>
+  <style>
+      @-webkit-keyframes bounce {
+	from, to {
+	  bottom: 0px;
+	  left : 0px;
+	  -webkit-animation-timing-function: ease-out;
+	}
+	25% {
+	  bottom: 200px;
+	  left : 200px;
+	  -webkit-animation-timing-function: ease-in;
+	}
+        50% {
+	  bottom: 0px;
+	  left : 400px;
+	  -webkit-animation-timing-function: ease-in;
+        }
+	75% {
+	  bottom: 200px;
+	  left : 600px;
+	  -webkit-animation-timing-function: ease-in;
+        }
+	100% {
+	  bottom: 0px;
+	  left : 800px;
+	  -webkit-animation-timing-function: ease-in;
+        }
+      }
+      #ball {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 10px;
+	-webkit-animation-name: bounce;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 3s;
+      }
+</style>
+</head>
+<body> <div id="ball"> </div> </body>
+</html>
