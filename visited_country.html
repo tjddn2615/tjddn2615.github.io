@@ -4,10 +4,23 @@
  		<title>HW1</title>
 		<link rel="stylesheet" href="mystyle.css" type="text/css">
 		<style>
-			#open_image{
+			.img_change{
+				width: 80%;
 				margin-left:auto;
 				margin-right:auto;
+				margin-top: 10px;
 				display:block;
+				-webkit-transition: -webkit-transform 1s;
+				transition:transform 1s;
+			}
+			.img_change:hover{
+				-webkit-transform: scale(1.5,1.5);
+				transform: scale(1.5,1.5);
+				overflow:hidden;
+			}
+			.desc{
+				padding: 15px;
+				text-align: center;
 			}
 		</style>
   	</head>
@@ -28,13 +41,12 @@
 			<div id="aside_up"></div>
      			<div id="aside"></div>
       			<div id="content"> 
-				<table width=100% height=100%>
-					<tr>
-						<td vertical align="middle">
-							<img id="open_image" src="open.jpg" width = 80%>
-						</td>
-					</tr>
-				</table>
+				<div><a target="_blank" href="worldmap.jpg">
+					<img class="img_change" src="worldmap.jpg">
+				</a></div>
+				<div class="desc" style="overflow:auto;">
+					<iframe src="visited_country2.html" width="80%" height="350px"></iframe>
+				</div>
 			</div>
       			<div id="aside"></div>
       			<div id="footer"></div>
