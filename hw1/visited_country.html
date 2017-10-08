@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title>HW1</title>
+		<link rel="stylesheet" href="mystyle.css" type="text/css">
+		<style>
+			.img_change{
+				width: 80%;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top: 10px;
+				display:block;
+				-webkit-transition: -webkit-transform 1s;
+				transition:transform 1s;
+			}
+			.img_change:hover{
+				-webkit-transform: scale(1.5,1.5);
+				transform: scale(1.5,1.5);
+				overflow:hidden;
+			}
+			.desc{
+				padding: 15px;
+				text-align: center;
+			}
+		</style>
+  	</head>
+  	<body>
+    		<div id="wrapper">
+     			<div id="header"> <h1>Homepage of SW Lee</h1></div>
+      			<div id="nav_bar">
+				<ul>
+      				<li><a href="home.html">HOME</a></li>
+     				<li><a href="me.html">나</a></li>
+      				<li><a href="timetable.html">시간표</a></li>
+      				<li><a href="game.html">즐겨하는 게임</a></li>
+      				<li><a href="visited_country.html">Visited Country</a></li>
+      				<li><a href="contact.html">Contact</a></li>
+      				<li><a href="about.html">About</a></li>
+    				</ul>
+			</div>
+			<div id="aside_up"></div>
+     			<div id="aside"></div>
+      			<div id="content"> 
+				<div><a target="_blank" href="worldmap.jpg">
+					<img class="img_change" src="worldmap.jpg">
+				</a></div>
+				<div class="desc" style="overflow:auto;">
+					<iframe src="visited_country2.html" width="80%" height="350px"></iframe>
+				</div>
+			</div>
+      			<div id="aside"></div>
+      			<div id="footer"></div>
+		</div>
+		<div>
+			<audio src="bgm.mp3"autoplay loop controls>
+			Your browser does not support the audio element.
+			</audio>
+		</div>
+	
+  	</body>
+</html>
+<!--https://www.amcharts.com/visited_countries/-->
+<!--http://www.orangefreesounds.com-->
+<!--http://tech-lovers.com/30-amazing-free-ice-texture-backgrounds-for-web-designers/-->
