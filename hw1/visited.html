@@ -3,6 +3,11 @@
 	<head>
  		<title>HW1</title>
 		<link rel="stylesheet" href="mystyle.css" type="text/css">
+		<style>
+			span {
+				letter-spacing:5px;
+			}
+		</style>
   	</head>
   	<body>
     		<div id="wrapper">
@@ -21,12 +26,21 @@
 			</div>
 			<div id="aside_up"></div>
      			<div id="aside"></div>
-      			<div id="content" style="overflow:auto;"> 
-				<table width=100% height=100% >
+      			<div id="content"> 
+				<table width=100% height=100%>
 					<tr>
 						<td vertical align="middle">
-							<h2>2017년 2학기 시간표</h2>
-							<img id="open_image" src="timetable.jpg" width = 70%>
+							<form>
+								<h3>남길 말</h3>
+									<textarea name="feedback" rows="5" cols="50"></textarea><br>
+										<input type="radio" name="dis" value="man">남성</option>
+										<input type="radio" name="dis" value="woman">여성</option></br>
+
+									<span>ID</span> :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="user"></br>
+        								PW :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="password" name="pass"></br></br>
+     									<input type="submit" value="접수하기">
+     									<input type="reset" value="다시쓰기">
+							</form>
 						</td>
 					</tr>
 				</table>
@@ -42,6 +56,3 @@
 	
   	</body>
 </html>
-<!--https://www.amcharts.com/visited_countries/-->
-<!--http://www.orangefreesounds.com-->
-<!--http://tech-lovers.com/30-amazing-free-ice-texture-backgrounds-for-web-designers/-->
